@@ -10,6 +10,7 @@
 		2620FFCE1FCC53A100B9F091 /* CWCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 2620FFCC1FCC53A100B9F091 /* CWCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2620FFD51FCC53FE00B9F091 /* CWCollections.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2620FFC91FCC53A100B9F091 /* CWCollections.framework */; };
 		2620FFD71FCC541500B9F091 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FFD61FCC541500B9F091 /* OrderedDictionary.swift */; };
+		26917D121FFBA0720080B187 /* RefArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26917D111FFBA0720080B187 /* RefArray.swift */; };
 		269D0ABD1FD7013B00C35042 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D0ABC1FD7013B00C35042 /* LRUCache.swift */; };
 		269D0ABF1FD701EA00C35042 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D0ABE1FD701EA00C35042 /* LinkedList.swift */; };
 		269D0AC31FD7030E00C35042 /* SynchroObjs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D0AC21FD7030E00C35042 /* SynchroObjs.swift */; };
@@ -33,6 +34,7 @@
 		2620FFCC1FCC53A100B9F091 /* CWCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCollections.h; sourceTree = "<group>"; };
 		2620FFCD1FCC53A100B9F091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2620FFD61FCC541500B9F091 /* OrderedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
+		26917D111FFBA0720080B187 /* RefArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefArray.swift; sourceTree = "<group>"; };
 		269D0ABC1FD7013B00C35042 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		269D0ABE1FD701EA00C35042 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		269D0AC21FD7030E00C35042 /* SynchroObjs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchroObjs.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				2620FFCD1FCC53A100B9F091 /* Info.plist */,
 				2620FFD61FCC541500B9F091 /* OrderedDictionary.swift */,
 				269D0ABC1FD7013B00C35042 /* LRUCache.swift */,
+				26917D111FFBA0720080B187 /* RefArray.swift */,
 				269D0ABE1FD701EA00C35042 /* LinkedList.swift */,
 				269D0AC21FD7030E00C35042 /* SynchroObjs.swift */,
 			);
@@ -162,6 +165,7 @@
 				269D0AC31FD7030E00C35042 /* SynchroObjs.swift in Sources */,
 				269D0ABF1FD701EA00C35042 /* LinkedList.swift in Sources */,
 				269D0ABD1FD7013B00C35042 /* LRUCache.swift in Sources */,
+				26917D121FFBA0720080B187 /* RefArray.swift in Sources */,
 				2620FFD71FCC541500B9F091 /* OrderedDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
