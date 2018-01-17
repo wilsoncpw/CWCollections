@@ -33,6 +33,10 @@ public class LRUCache <T: Hashable, V> {
         }
     }
     
+    public var count : Int {
+        return dict.count
+    }
+    
     public init () {
     }
     
