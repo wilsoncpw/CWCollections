@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2620FFCE1FCC53A100B9F091 /* CWCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 2620FFCC1FCC53A100B9F091 /* CWCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2620FFD51FCC53FE00B9F091 /* CWCollections.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2620FFC91FCC53A100B9F091 /* CWCollections.framework */; };
+		2620FFD51FCC53FE00B9F091 /* CWCollections.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2620FFC91FCC53A100B9F091 /* CWCollections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		2620FFD71FCC541500B9F091 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FFD61FCC541500B9F091 /* OrderedDictionary.swift */; };
 		26917D121FFBA0720080B187 /* RefArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26917D111FFBA0720080B187 /* RefArray.swift */; };
 		269D0ABD1FD7013B00C35042 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D0ABC1FD7013B00C35042 /* LRUCache.swift */; };
@@ -20,7 +20,7 @@
 		2620FFD41FCC53F200B9F091 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "~/Documents/XCode Projects/Frameworks";
+			dstPath = "/Users/wilsoncpw/Documents/XCode Projects/Frameworks";
 			dstSubfolderSpec = 0;
 			files = (
 				2620FFD51FCC53FE00B9F091 /* CWCollections.framework in CopyFiles */,
