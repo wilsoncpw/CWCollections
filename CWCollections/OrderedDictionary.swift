@@ -124,7 +124,7 @@ public struct OrderedDictionary <Value: KeyProvider>: MutableCollection {
     //
     // Remove a value by key, and return it
     @discardableResult public mutating func removeValue (forKey: Value.T) -> Value? {
-        guard let idx = keys.index(of: forKey) else {
+        guard let idx = keys.firstIndex(of: forKey) else {
             return nil
         }
         
